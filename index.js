@@ -3,7 +3,7 @@ const cors = require("cors");
 
 const app = express();
 
-// libera acesso do frontend
+
 app.use(cors());
 
 app.get("/", (req, res) => {
